@@ -3,7 +3,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const cors = require('cors');
 
-const port = 'http://192.168.151.21:5173'
+const port = 'https://videocall-ftzv.onrender.com'
 
 const app = express();
 const server = http.createServer(app);
